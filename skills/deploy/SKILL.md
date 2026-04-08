@@ -1,5 +1,5 @@
 ---
-name: deploy
+name: rust-lambda-deploy
 description: >
   Deploy a compiled Rust Lambda function to AWS. Use when the user wants to publish their
   function to AWS Lambda using Cargo Lambda, the AWS CLI, or AWS SAM. Covers creating new
