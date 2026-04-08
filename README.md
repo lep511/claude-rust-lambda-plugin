@@ -12,14 +12,14 @@ All guidance is based on official [AWS Lambda Rust documentation](https://docs.a
 
 | Skill | Command | Description |
 |---|---|---|
-| Setup | `/rust-lambda:setup` | Initialize a new Rust Lambda project with Cargo Lambda |
-| New handler | `/rust-lambda:new-handler` | Scaffold a handler with the correct signature and patterns |
-| Build | `/rust-lambda:build` | Compile with `cargo lambda build` (x86_64 or ARM64) |
-| Deploy | `/rust-lambda:deploy` | Deploy via Cargo Lambda, AWS CLI, or AWS SAM |
-| Invoke | `/rust-lambda:invoke` | Test the function with a JSON payload |
-| HTTP handler | `/rust-lambda:add-http` | Add API Gateway / Function URL HTTP handling |
-| S3 integration | `/rust-lambda:add-s3` | Integrate the AWS SDK for S3 |
-| Review | `/rust-lambda:review-handler` | Review handler code for AWS best practices |
+| Setup | `/rust-lambda:rust-lambda-setup` | Initialize a new Rust Lambda project with Cargo Lambda |
+| New handler | `/rust-lambda:rust-lambda-new-handler` | Scaffold a handler with the correct signature and patterns |
+| Build | `/rust-lambda:rust-lambda-build` | Compile with `cargo lambda build` (x86_64 or ARM64) |
+| Deploy | `/rust-lambda:rust-lambda-deploy` | Deploy via Cargo Lambda, AWS CLI, or AWS SAM |
+| Invoke | `/rust-lambda:rust-lambda-invoke` | Test the function with a JSON payload |
+| HTTP handler | `/rust-lambda:rust-lambda-add-http` | Add API Gateway / Function URL HTTP handling |
+| S3 integration | `/rust-lambda:rust-lambda-add-s3` | Integrate the AWS SDK for S3 |
+| Review | `/rust-lambda:rust-lambda-review-handler` | Review handler code for AWS best practices |
 
 ---
 
@@ -27,8 +27,8 @@ All guidance is based on official [AWS Lambda Rust documentation](https://docs.a
 
 | Hook | Trigger | Purpose |
 |---|---|---|
-| `validate-before-deploy` | Before `cargo lambda deploy` | Checks AWS credentials, cargo-lambda install, warns on anti-patterns |
-| `warn-no-env-vars` | Before `cargo lambda build` | Scans for `unwrap()` on env vars, recursive invocations, wrong runtime in SAM templates |
+| `rust-lambda-validate-before-deploy` | Before `cargo lambda deploy` | Checks AWS credentials, cargo-lambda install, warns on anti-patterns |
+| `rust-lambda-warn-no-env-vars` | Before `cargo lambda build` | Scans for `unwrap()` on env vars, recursive invocations, wrong runtime in SAM templates |
 
 ---
 
