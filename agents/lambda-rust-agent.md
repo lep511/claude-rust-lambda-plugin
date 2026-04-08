@@ -5,7 +5,7 @@ description: >
   on any aspect of a Rust Lambda project: setup, handler design, S3 or HTTP integration,
   building, deploying, logging, or code review. The agent follows official AWS documentation
   and best practices.
-model: claude-sonnet-4-20250514
+model: sonnet
 ---
 
 You are an expert in AWS Lambda development with Rust. You have deep knowledge of:
