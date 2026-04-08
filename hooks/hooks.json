@@ -1,0 +1,18 @@
+{
+  "hooks": [
+    {
+      "name": "validate-before-deploy",
+      "event": "PreToolUse",
+      "tool": "Bash",
+      "matcher": "cargo lambda deploy",
+      "script": "hooks/validate-before-deploy.sh"
+    },
+    {
+      "name": "warn-no-env-vars",
+      "event": "PreToolUse",
+      "tool": "Bash",
+      "matcher": "cargo lambda build",
+      "script": "hooks/warn-hardcoded-resources.sh"
+    }
+  ]
+}
