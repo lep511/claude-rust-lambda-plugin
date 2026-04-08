@@ -1,5 +1,5 @@
 ---
-name: add-http
+name: rust-lambda-add-http
 description: >
   Add HTTP event handling to a Rust Lambda function for use with API Gateway, Application
   Load Balancers, or Lambda Function URLs. Use when the user wants to expose their function
