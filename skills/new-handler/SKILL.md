@@ -1,5 +1,5 @@
 ---
-name: new-handler
+name: rust-lambda-new-handler
 description: >
   Scaffold or generate a complete AWS Lambda handler in Rust. Use when the user wants to
   write a new handler function, understand the handler signature, define input/output event
