@@ -1,7 +1,10 @@
 {
+    "$schema":"https://anthropic.com/claude-code/marketplace.schema.json",
     "name":"rust-lambda-marketplace",
+    "description":"Develop, build, and deploy AWS Lambda functions written in Rust",
     "owner":{
-        "name":"Esteban Perez"
+        "name":"Esteban Perez",
+        "email":"tu-email@example.com"
     },
     "plugins":[
         {
@@ -11,8 +14,12 @@
             "author":{
                 "name":"Esteban Perez"
             },
-            "repository":"https://github.com/lep511/claude-rust-lambda-plugin",
-            "source":"https://github.com/lep511/claude-rust-lambda-plugin"
+            "category":"development",
+            "source":{
+                "source":"url",
+                "url":"https://github.com/lep511/claude-rust-lambda-plugin.git"
+            },
+            "homepage":"https://github.com/lep511/claude-rust-lambda-plugin"
         }
     ]
 }
