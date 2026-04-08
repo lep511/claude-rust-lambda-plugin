@@ -1,5 +1,5 @@
 ---
-name: setup
+name: rust-lambda-setup
 description: >
   Initialize a new AWS Lambda Rust project using Cargo Lambda. Use this when the user wants
   to start a new Lambda function in Rust, set up the project structure, or install required
