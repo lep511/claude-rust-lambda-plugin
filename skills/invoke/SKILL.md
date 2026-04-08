@@ -1,5 +1,5 @@
 ---
-name: invoke
+name: rust-lambda-invoke
 description: >
   Invoke and test an AWS Lambda Rust function with a payload. Use when the user wants to test
   their function locally with Cargo Lambda or remotely against a deployed function with the
