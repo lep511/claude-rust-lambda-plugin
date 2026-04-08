@@ -1,9 +1,14 @@
 {
-  "name": "rust-lambda",
-  "description": "Develop, build, and deploy AWS Lambda functions written in Rust using the official AWS Lambda Runtime for Rust and Cargo Lambda",
-  "version": "1.0.0",
-  "author": {
-    "name": "Esteban Perez"
-  },
-  "repository": "https://github.com/lep511/claude-rust-lambda-plugin"
+  "owner": "Esteban Perez",
+  "plugins": [
+    {
+      "name": "rust-lambda",
+      "description": "Develop, build, and deploy AWS Lambda functions written in Rust using the official AWS Lambda Runtime for Rust and Cargo Lambda",
+      "version": "1.0.0",
+      "author": {
+        "name": "Esteban Perez"
+      },
+      "repository": "https://github.com/lep511/claude-rust-lambda-plugin"
+    }
+  ]
 }
