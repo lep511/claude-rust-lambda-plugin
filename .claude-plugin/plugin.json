@@ -3,8 +3,7 @@
   "description": "Develop, build, and deploy AWS Lambda functions written in Rust using the official AWS Lambda Runtime for Rust and Cargo Lambda",
   "version": "1.0.0",
   "author": {
-    "name": "Community"
+    "name": "Esteban Perez"
   },
-  "homepage": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-rust.html",
-  "repository": "https://github.com/aws/aws-lambda-rust-runtime"
+  "repository": "https://github.com/lep511/claude-rust-lambda-plugin"
 }
