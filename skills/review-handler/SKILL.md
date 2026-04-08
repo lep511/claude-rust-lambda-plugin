@@ -1,5 +1,5 @@
 ---
-name: review-handler
+name: rust-lambda-review-handler
 description: >
   Review a Rust Lambda handler for AWS best practices, correctness, and performance.
   Use when the user wants feedback on their handler code, wants to check compliance with
