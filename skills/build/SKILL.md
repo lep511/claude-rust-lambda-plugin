@@ -1,5 +1,5 @@
 ---
-name: build
+name: rust-lambda-build
 description: >
   Build and compile a Rust AWS Lambda function using Cargo Lambda. Use when the user wants
   to compile their Rust Lambda project, target ARM64/Graviton2, or produce a .zip deployment
