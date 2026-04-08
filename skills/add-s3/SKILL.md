@@ -1,5 +1,5 @@
 ---
-name: add-s3
+name: rust-lambda-add-s3
 description: >
   Add Amazon S3 integration to a Rust Lambda function using the AWS SDK for Rust.
   Use when the user wants to read from or write to S3. Covers both the basic pattern
